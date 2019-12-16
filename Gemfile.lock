@@ -80,7 +80,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.2.1)
     escape (0.0.4)
-    excon (0.59.0)
+    excon (0.71.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     faraday-cookie_jar (0.0.6)
@@ -124,8 +124,6 @@ GEM
       xcodeproj (>= 1.5.2, < 2.0.0)
       xcpretty (>= 0.2.4, < 1.0.0)
       xcpretty-travis-formatter (>= 0.0.3)
-    fastlane-plugin-trainer (0.4.0)
-      trainer (>= 0.7.0)
     ffi (1.9.18)
     fourflusher (2.0.1)
     fuzzy_match (2.0.4)
@@ -223,8 +221,6 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
-    trainer (0.7.0)
-      plist (>= 3.1.0, < 4.0.0)
     tty-screen (0.6.2)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
@@ -256,7 +252,6 @@ DEPENDENCIES
   danger-junit
   danger-xcode_summary
   fastlane (~> 2.66)
-  fastlane-plugin-trainer
   jazzy (~> 0.9)
   xcpretty-json-formatter
 
